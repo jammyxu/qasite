@@ -39,12 +39,29 @@ AppAsset::register($this);
                         'url' => ['site/index'],
                     ],
                     [
-                        'label' => 'Dropdown',
+                        'label' => 'Reports',
                         'items' => [
-                             ['label' => 'Level 1 - Dropdown A', 'url' => '#'],
+                             '<li class="dropdown-header">YTX APP</li>',
+                             ['label' => 'Android Report', 'url' => '/site/index'],
+                             ['label' => 'IOS Report', 'url' => '/site/index'],
                              '<li class="divider"></li>',
-                             '<li class="dropdown-header">Dropdown Header</li>',
-                             ['label' => 'Level 1 - Dropdown B', 'url' => '#'],
+                             '<li class="dropdown-header">YTX PC</li>',
+                             ['label' => 'PC report', 'url' => '/site/index'],
+                        ],
+                    ],
+                    [
+                        'label' => 'Tools',
+                        'items' => [
+                             ['label' => 'Clear register', 'url' => '/site/about'],
+                             ['label' => 'Clear account', 'url' => '/site/about'],
+                        ],
+                    ],
+                    [
+                        'label' => 'Tutorial',
+                        'items' => [
+                             ['label' => 'PC', 'url' => '/site/contact'],
+                             ['label' => 'CRM', 'url' => '/site/contact'],
+                             ['label' => 'App', 'url' => ['/site/contact']],
                         ],
                     ],
                 ],
