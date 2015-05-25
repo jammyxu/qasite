@@ -42,18 +42,18 @@ AppAsset::register($this);
                         'label' => '报告',
                         'items' => [
                              '<li class="dropdown-header">银天下APP</li>',
-                             ['label' => 'Android Report', 'url' => '/site/index'],
-                             ['label' => 'IOS Report', 'url' => '/site/index'],
+                             ['label' => 'Android报告', 'url' => '/site/index'],
+                             ['label' => 'IOS报告', 'url' => '/site/index'],
                              '<li class="divider"></li>',
-                             '<li class="dropdown-header">YTX PC</li>',
-                             ['label' => 'PC report', 'url' => '/site/index'],
+                             '<li class="dropdown-header">银天下PC</li>',
+                             ['label' => 'PC报告', 'url' => '/site/index'],
                         ],
                     ],
                     [
                         'label' => '工具',
                         'items' => [
-                             ['label' => 'Clear register', 'url' => '/site/about'],
-                             ['label' => 'Clear account', 'url' => '/site/about'],
+                             ['label' => '清理注册', 'url' => '/site/about'],
+                             ['label' => '清理账户', 'url' => '/site/about'],
                         ],
                     ],
                     [
