@@ -35,13 +35,13 @@ AppAsset::register($this);
             echo Nav::widget([
                 'items' => [
                     [
-                        'label' => 'Home',
+                        'label' => '主页',
                         'url' => ['site/index'],
                     ],
                     [
-                        'label' => 'Reports',
+                        'label' => '报告',
                         'items' => [
-                             '<li class="dropdown-header">YTX APP</li>',
+                             '<li class="dropdown-header">银天下APP</li>',
                              ['label' => 'Android Report', 'url' => '/site/index'],
                              ['label' => 'IOS Report', 'url' => '/site/index'],
                              '<li class="divider"></li>',
@@ -50,14 +50,14 @@ AppAsset::register($this);
                         ],
                     ],
                     [
-                        'label' => 'Tools',
+                        'label' => '工具',
                         'items' => [
                              ['label' => 'Clear register', 'url' => '/site/about'],
                              ['label' => 'Clear account', 'url' => '/site/about'],
                         ],
                     ],
                     [
-                        'label' => 'Tutorial',
+                        'label' => '教程',
                         'items' => [
                              ['label' => 'PC', 'url' => '/site/contact'],
                              ['label' => 'CRM', 'url' => '/site/contact'],
@@ -67,36 +67,6 @@ AppAsset::register($this);
                 ],
                 'options' => ['class' =>'nav-pills navbar-right'], // set this to nav-tab to get tab-styled navigation
             ]);            
-            // echo Nav::widget([
-            //     'options' => ['class' => 'navbar-nav navbar-right'],
-            //     'items' => [
-            //         [
-            //         'label' => '报告',
-            //         'items' => [
-            //                 ['label' => 'Android报告', 'url' => ['/site/index']],
-            //                 ['label' => 'IOS报告', 'url' => ['/site/index']],
-            //             ],    
-            //         ],
-            //         [
-            //         'label' => '工具', 
-            //         'items' => [
-            //                 ['label' => '注册清理', 'url' => ['/site/about']],
-            //                 ['label' => '开户清理', 'url' => ['/site/about']],
-            //             ],                   
-            //         ],
-            //         [
-            //         'label' => '学习', 
-            //         'items' => [
-            //                 ['label' => '新人', 'url' => ['/site/contact']],
-            //             ],                    
-            //         ],
-            //         Yii::$app->user->isGuest ?
-            //             ['label' => 'Login', 'url' => ['/site/login']] :
-            //             ['label' => 'Logout (' . Yii::$app->user->identity->username . ')',
-            //                 'url' => ['/site/logout'],
-            //                 'linkOptions' => ['data-method' => 'post']],
-            //     ],
-            // ]);
             NavBar::end();
         ?>
 
@@ -110,8 +80,8 @@ AppAsset::register($this);
 
     <footer class="footer">
         <div class="container">
-            <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
-            <p class="pull-right"><?= Yii::powered() ?></p>
+            <p class="pull-left">&copy; 上海银天下科技 <?= date('Y') ?></p>
+            <p class="pull-right">质量保障部工具组</p>
         </div>
     </footer>
 
