@@ -17,7 +17,7 @@ $this->title = 'My Yii Application';
         <div class="row">
             <div class="col-lg-4">
                 <h2>Heading</h2>
-                <p><a href="http://192.168.19.129/zentao/index.php"><img src=<?php echo('/img/zentao.png'); ?>/> 禅道</a></p>
+                <p><a href="http://192.168.19.129/zentao/index.php"><img src=<?php echo(Yii::$app->baseUrl.'/web/img/zentao.png'); ?>/> 禅道</a></p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                     ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
